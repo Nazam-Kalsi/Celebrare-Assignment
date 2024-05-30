@@ -1,0 +1,85 @@
+#root{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
+.hexagon {
+  position: relative;
+  width: 250px; 
+  height: 230px; 
+  clip-path: polygon(
+      25% 6.7%, 75% 6.7%, 
+      100% 50%,  
+      75% 93.3%, 25% 93.3%, 
+      0% 50%  
+  );
+  overflow: hidden;
+}
+
+.hexagon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.star {
+  position: relative;
+  width: 200px; 
+  height: 200px; 
+  clip-path: polygon(
+      50% 0%, 61% 35%, 98% 35%, 
+      68% 57%, 79% 91%, 50% 70%, 
+      21% 91%, 32% 57%, 2% 35%, 
+      39% 35%
+  );
+  overflow: hidden;
+}
+.star img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heart {
+  position: relative;
+  width: 200px; 
+  height: 200px; 
+  clip-path: polygon(50% 28%, 83% 12%, 100% 43%, 79% 76%, 53% 100%, 18% 75%, 0 45%, 17% 12%);
+  overflow: hidden; 
+
+}
+
+.heart img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rectangle {
+  position: relative;
+  width: 300px; 
+  height: 150px; 
+  clip-path: inset(0);
+  overflow: hidden;
+}
+
+.rectangle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle {
+  /* position: relative; */
+  width: 200px;
+  height: 200px;
+  clip-path: circle(50%);
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
